@@ -11,12 +11,14 @@
     left: 0;
     width: 100%;
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 .boxlogin{
     width: 25%;
-    height: 70vh;
+    height: auto;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -26,9 +28,11 @@
     background-color: white;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 15px;
 }
 .boxlogin input{
     height: 30px;
+    width: 100%;
     outline: none;
     border: 1px solid #ccc;
 }
@@ -108,7 +112,6 @@
 	display: flex;
 	justify-content: stretch;
     height: 6vh;
-    margin-top: 30px;
     text-align: justify;
 }
 
